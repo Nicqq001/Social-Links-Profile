@@ -1,0 +1,79 @@
+:root {
+    --background-color: hsl(0, 0%, 8%);
+    --font-color: hsl(0, 0%, 100%);
+    --h1-color: hsl(75, 94%, 58%);
+    --card-color: hsl(0, 0%, 20%);
+    --grey-color: hsl(0, 0%, 12%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter Local', sans-serif;
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--grey-color);
+    max-width: 270px;
+    border-radius: 10px;
+    padding: 2.5rem;
+    display: flex; /* Add display flex to the card */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 15px; /* Add some space between the children */
+}
+
+.profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.social {
+    background-color: var(--card-color);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%; /* Make buttons full width */
+    text-align: center;
+    color: white; /* Set the text color for the buttons */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+}
+
+.name {
+    color: var(--font-color);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.address {
+    color: var(--h1-color);
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.job {
+    color: var(--font-color);
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social-links-container {
+    width: 100%; /* Make container full width */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add spacing between buttons */
+}
