@@ -44,26 +44,26 @@ body{
 
 .card{
     background-color: var(--grey-color);
-    max-width: 375px;
-    border-radius: 10px;
+    max-width: 23.4375rem;
+    border-radius: 0.625rem;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .profile{
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
     border-radius: 50%;
-    margin-top: -15px;
+    margin-top: -0.9375rem;
 }
 
 .social{
     background-color: var(--card-color);
-    border-radius: 7px;
-    padding: 10px;
+    border-radius: .4375rem;
+    padding: 0.625rem;
     width: 100%;
     font-weight: 600;
     text-align: center;
@@ -77,33 +77,33 @@ body{
 
 .name{
     color: var(--font-color);
-    font-size: 23px;
+    font-size: 1.4375rem;
     text-align: center;
     font-weight: 700;
 }
 
 .address{
     color: var(--h1-color);
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
     font-weight: 600;
 }
 
 .job{
     color: var(--font-color);
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .attribution{
-    font-size: 11px;
+    font-size: 0.6875rem;
     color: var(--font-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     cursor: pointer;
 }
 
@@ -120,17 +120,17 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: -15px;
+    margin-bottom: -0.9375rem;
 }
 
-@media (min-width: 1440px){
+@media (min-width: 90rem){
     .card{
         padding: 3rem;
-        max-width: 450px;
-        gap: 20px;
+        max-width: 28.125rem;
+        gap: 1.25rem;
     }
 
     .social-links-container{
-        gap: 15px;
+        gap: .9375rem;
     }
 }
